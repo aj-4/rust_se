@@ -3,18 +3,7 @@ name = "rust_se"
 version = "0.1.0"
 edition = "2021"
 
-# Make tests work with the name used in the tutorial
-[[bin]]
-name = "rust_se"
-path = "src/main.rs"
-
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 clap = { version = "3.0", features = ["derive"] }
-anyhow = { version = "1.0" }
-
-[dev-dependencies]
-assert_cmd = "2.0"
-predicates = "2.1"
-assert_fs = "1.0"
